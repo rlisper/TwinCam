@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Remote Viewfinder Support</title>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --fg: #1a1a1a;
+      --muted: #555;
+      --bg: #fafafa;
+      --card: #fff;
+      --border: #e5e5e5;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --fg: #f2f2f2;
+        --muted: #aaa;
+        --bg: #121212;
+        --card: #1c1c1c;
+        --border: #333;
+      }
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.55;
+      background: var(--bg);
+      color: var(--fg);
+    }
+    main {
+      max-width: 40rem;
+      margin: 0 auto;
+      padding: 2rem 1.25rem 4rem;
+    }
+    h1 { font-size: 1.75rem; margin: 0 0 0.25rem; }
+    h2 { font-size: 1.15rem; margin-top: 1.5rem; }
+    .meta { color: var(--muted); font-size: 0.95rem; margin-bottom: 1.5rem; }
+    .lang {
+      display: inline-block;
+      margin: 0 0.5rem 1rem 0;
+      padding: 0.35rem 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      background: var(--card);
+      color: var(--fg);
+      text-decoration: none;
+      font-size: 0.9rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.35rem;
+      margin-bottom: 1.5rem;
+    }
+    ul { padding-left: 1.2rem; }
+    a { color: inherit; }
+    .email {
+      font-size: 1.05rem;
+      font-weight: 600;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Remote Viewfinder</h1>
+    <p class="meta">Support</p>
+
+    <a class="lang" href="#en">English</a>
+    <a class="lang" href="#ru">Русский</a>
+
+    <section id="en" class="card">
+      <h2>Contact</h2>
+      <p>Need help with Remote Viewfinder? Email:</p>
+      <p class="email"><a href="mailto:romanlisper@gmail.com">romanlisper@gmail.com</a></p>
+      <p>Developer: <strong>Roman Kovalev</strong></p>
+
+      <h2>Before you write</h2>
+      <p>Remote Viewfinder needs <strong>two iPhones</strong> (or compatible iOS devices) nearby:</p>
+      <ul>
+        <li>On one device choose <strong>Camera</strong>; on the other choose <strong>Viewer</strong>.</li>
+        <li>Allow <strong>Camera</strong>, <strong>Local Network</strong>, and <strong>Photos</strong> when asked.</li>
+        <li>Keep <strong>Wi‑Fi</strong> and <strong>Bluetooth</strong> turned on (no internet account required).</li>
+      </ul>
+      <p>If devices do not connect, check Settings → Privacy &amp; Security → Local Network and enable Remote Viewfinder on both phones.</p>
+
+      <h2>Privacy</h2>
+      <p>See our <a href="privacy.html">Privacy Policy</a>.</p>
+    </section>
+
+    <section id="ru" class="card">
+      <h2>Контакт</h2>
+      <p>Нужна помощь с Remote Viewfinder? Напишите:</p>
+      <p class="email"><a href="mailto:romanlisper@gmail.com">romanlisper@gmail.com</a></p>
+      <p>Разработчик: <strong>Roman Kovalev</strong></p>
+
+      <h2>Перед письмом</h2>
+      <p>Remote Viewfinder нужны <strong>два iPhone</strong> (или совместимых устройства iOS) рядом:</p>
+      <ul>
+        <li>На одном выберите <strong>Камера</strong>, на другом — <strong>Экран</strong>.</li>
+        <li>Разрешите <strong>Камеру</strong>, <strong>Локальную сеть</strong> и <strong>Фото</strong>.</li>
+        <li>Включите <strong>Wi‑Fi</strong> и <strong>Bluetooth</strong> (аккаунт и интернет не нужны).</li>
+      </ul>
+      <p>Если устройства не связываются: Настройки → Конфиденциальность и безопасность → Локальная сеть — включите Remote Viewfinder на обоих телефонах.</p>
+
+      <h2>Конфиденциальность</h2>
+      <p>См. <a href="privacy.html">Политику конфиденциальности</a>.</p>
+    </section>
+  </main>
+</body>
+</html>
